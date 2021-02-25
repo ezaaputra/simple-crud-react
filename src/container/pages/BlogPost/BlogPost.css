@@ -1,0 +1,133 @@
+.section{
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.post{
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 0px 2px 10px;
+  max-width: 500px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.img-thumb{
+  width: 200px;
+  height: 150px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.img-thumb img{
+  max-height: 100%;
+}
+
+.content{
+  width: 300px;
+  display: inline-block;
+  margin-left: 18px;
+}
+
+.title{
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.title:hover{
+  cursor: pointer;
+}
+
+.btn-remove{
+  background-color: white;
+  color: rgb(252, 62, 62);
+  border: 1px solid rgb(252, 62, 62);
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  transition: ease-out 0.2s;
+}
+
+.btn-remove:hover{
+  cursor: pointer;
+  background-color: rgb(250, 216, 216);
+}
+
+.btn-remove:active{
+  background-color: rgb(250, 183, 183);
+}
+
+.btn-update{
+  margin-left: 10px;
+  background-color: white;
+  border: 1px solid rgb(55, 136, 35);
+  color: rgb(55, 136, 35);
+  border-radius: 10px;
+  outline: none;
+  padding: 10px;
+  transition: ease-out 0.2s;
+}
+
+.btn-update:hover{
+  cursor: pointer;
+  background-color: rgb(225, 252, 218);
+}
+
+.btn-update:active{
+  background-color: rgb(199, 221, 193);
+}
+
+.form-add-post{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 16px;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.form-add-post label{
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(87, 86, 86);
+}
+
+.form-add-post input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #a1a1a1;
+  margin-bottom: 10px;
+}
+
+.form-add-post textarea{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #a1a1a1;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-submit{
+  background-color: white;
+  color: rgb(35, 104, 136);
+  border: 1px solid rgb(35, 104, 136);
+  border-radius: 10px;
+  padding: 10px;
+  width: 100px;
+  align-self: flex-end;
+  outline: none;
+  transition: ease-out 0.2s;
+}
+
+.btn-submit:hover{
+  cursor: pointer;
+  background-color:  rgb(217, 236, 245);
+}
+
+.btn-submit:active{
+  background-color: rgb(193, 205, 221);
+}
